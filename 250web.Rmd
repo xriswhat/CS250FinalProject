@@ -23,6 +23,11 @@ In order to prove that tetris is NP complete, we are going to be looking at the 
 P = \<\ t, o, \<\ i, j \>\, f \>\
 
 
+```{r, echo=FALSE, out.width = '50%'}
+knitr::include_graphics("intro.png")
+```
+
+
 The t represents the type of piece, t ∈ {Sq, LG, RG, LS, RS, I, T}. The o represents the orientation o ∈ {0º, 90º, 180º, 270º}, the number of degrees clockwise from the piece’s base orientation (shown in Figure 1). The ⟨i,j⟩ is the position, <i,j> ∈ {1,...,m} × {1,...n} of the piece’s center on the gameboard. The f represents the value f ∈ {fixed,unfixed}, indicating whether the piece can continue to move or not.
 
 The gameboard going to be m x n. m is the number of rows and n is the number of columns. The origin of the gameboard is going to be the bottom left corner, moving bottom to top and left to right. Differently from the online version of tetris, in order to clear the board, depending on the level you are on, you either have to clear the entire board at once or clear four rows at a time. Also, on easier levels, the gameboard is going to start completely empty, but on harder levels there will be pieces already on the board. 
@@ -143,7 +148,18 @@ We chose this paper because this is such a popular game that most people grew up
 
 # 4. Contribution
 
-# 5. wReference
+Lola Roberts was responsible for introduction and background of Tetris.
+
+Chris Tan was responsible for the proof of Tetris problem being NP-complete.
+
+Helen Du was responsible for proof of maximizing number of tetries being NP-complete and assessment.
+
+```{r, echo=FALSE, out.width = '30%'}
+knitr::include_graphics("three.jpg")
+```
+
+
+# 5. Reference
 
 https://erikdemaine.org/papers/Tetris_COCOON2003/paper.pdf
 
